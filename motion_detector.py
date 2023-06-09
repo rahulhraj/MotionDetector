@@ -21,7 +21,7 @@ if args.get("video",None) is None:
 else:
     vs=cv2.VideoCapture(args["video"])
 
-#initialise first fram in the video to None
+#initialise first frame in the video to None
 firstFrame=None
 
 #loop over the frames of the video
